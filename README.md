@@ -19,7 +19,7 @@ Well, we're here.
 
 ## Why InfluxDB?
 
-I'm in love with Time Series Database. I work for InfluxData, and lastly why not?
+I'm in love with Time Series Database. I work for InfluxData, and lastly, why not?
 
 ## Can I use this?
 
