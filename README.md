@@ -1,4 +1,4 @@
-# Follow the Money
+# Follow the Money ![visitors](https://visitor-badge.glitch.me/badge?page_id=xe-nvdk/follow-the=money)
 
 ## What?
 <b>Follow the Money</b> is a Python App to store in a InfluxDB bucket information about my income and spending. The main purpose is to track, or how I say, follow the money, and control it.
