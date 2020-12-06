@@ -9,13 +9,13 @@ I used [Wave](https://www.waveapps.com/) for a few years. A few weeks ago, I rec
 
 Still, my current account will be capable of using the service, but they don't know if that will change in the future. 
 
-This is key for my personal and economic development, so, I don't to depends on a decision that may is taken or not.
+I take my finance tracking seriously, and I understand this as key for my personal and economic development, so I don't want to depend on a decision that may is taken or not by 3rd parties.
+
+## So?
 
 As part of my process to learn Python, I said, "Why don't you build an app to use and keep tracking money without depends on a 3rd party"?
 
-The idea is basically to create an application to run from a Terminal (I love the Terminal) and ask for a few inputs and then store that data in a database, that DB, is, of course, InfluxDB that will help to graph my income and expenses, not only in a very cool way, but I will also capable to create it alerts to help stay in budget.
-
-Well, we're here.
+The idea is basically to create an application to run from a Terminal (I love the Terminal) and ask for a few inputs and then store that data in a database, that DB, is, of course, InfluxDB that will help to graph my income and expenses, not only in a very cool way, but I will also capable to create it alerts to help me stay in budget.
 
 ## Why InfluxDB?
 
@@ -23,7 +23,7 @@ I'm in love with Time Series Database. I work for InfluxData, and lastly, why no
 
 ## Can I use this?
 
-Of course, fork, adapt to your usage and go ahead.
+Of course, fork, adapt to your needs, and go ahead.
 
 ## Thanks Wave
 
