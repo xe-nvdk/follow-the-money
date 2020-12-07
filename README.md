@@ -19,7 +19,7 @@ The idea is basically to create an application to run from a Terminal (I love th
 
 ## Why InfluxDB?
 
-I'm in love with Time Series Database. I work for InfluxData, and lastly, why not?
+I'm in love with Time Series Databases. I work for InfluxData, and lastly, why not?
 
 ## Can I use this?
 
