@@ -27,4 +27,4 @@ Of course, fork, adapt to your needs, and go ahead.
 
 ## Thanks Wave
 
-If somebody of Wave is reading this, I want to say you, thank you. You're create a great service for Small Business.
+If somebody of Wave is reading this, I want to say, thank you. You created a great service for Small Business.
