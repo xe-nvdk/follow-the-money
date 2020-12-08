@@ -14,10 +14,11 @@ print("#########################################################################
 print("####################### Welcome to Follow the Money #########################")
 print("#############################################################################\n")
 
+
 CONT = "y"
 while CONT =="y":
 
-    OPERATION = str(input("Do you want to enter a income or expense\n\nPress 1 for income \nPress 2 for expense \n\nType your election: "))
+    OPERATION = str(input("Do you want to enter a income or expense\n\nPress 1 for income \nPress 2 for expense\n\nPress 0 to set a initial balance\n\nType your election: "))
 
     if OPERATION == "1":
         CATEGORY = str(input("Type category for you income: "))
@@ -33,6 +34,13 @@ while CONT =="y":
         EXPENSE = str(input("Name your expense: "))
         VALUE = float(input("Enter the amount: "))
         p = Point("follow-the-money").tag("operation", "expense").tag("category", CATEGORY).tag("item", EXPENSE).field("amount", VALUE)
+        write_api.write(bucket=bucket, record=p)
+
+        CONT = str(input("\nDo you want to add another record? [y/n]: "))
+
+    elif OPERATION == "0":
+        VALUE = float(input("Enter your initial balance: "))
+        p = Point("follow-the-money").tag("operation", "initial-balance").field("amount", VALUE)
         write_api.write(bucket=bucket, record=p)
 
         CONT = str(input("\nDo you want to add another record? [y/n]: "))
